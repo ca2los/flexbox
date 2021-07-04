@@ -1,0 +1,387 @@
+body {
+  background: #120725;
+  margin: 0 auto;
+}
+body header {
+  width: 96%;
+  height: 50px;
+  background: #161c21;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 2% 0;
+  position: fixed;
+  z-index: 1;
+}
+body header ul {
+  align-items: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+body header ul li {
+  display: inline-block;
+  margin: 0 6px 0 0;
+}
+body header ul li p {
+  color: #ffffff;
+  font-family: "Roboto Mono", serif;
+  font-size: 18px;
+  margin: 0;
+}
+body header ul li p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+body header ul li button {
+  color: #435661;
+  cursor: pointer;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin: 3px 0 0;
+  padding: 4px 6px;
+  text-transform: uppercase;
+}
+body header ul li img {
+  width: 34px;
+}
+body main {
+  padding: 0 0 50px;
+}
+body main .info {
+  width: 90%;
+  max-width: 1064px;
+  margin: 0 auto;
+  padding: 100px 0 0;
+}
+body main .info h1,
+body main .info h4 {
+  color: #fff;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+}
+body main .info h1 {
+  font-size: 2.4rem;
+  margin: 0;
+}
+body main .info h4 {
+  color: #b3a4cc;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 10px 0 40px;
+}
+body main .info p {
+  color: #fff;
+  font-family: "Roboto Mono", serif;
+  font-size: 1.4rem;
+  margin: 15px 0 0;
+}
+body main .info p a {
+  background: #1800ed;
+  color: #fff;
+  text-decoration: none;
+}
+body main .info p a:hover {
+  background: #fff;
+  color: #1800ed;
+}
+body main .info p.description {
+  font-size: 1rem;
+  font-weight: 400;
+}
+body main .wrapper {
+  width: 90%;
+  max-width: 1500px;
+  border: 1px dashed #1702ec;
+  border-radius: 10px;
+  margin: 30px auto 0;
+  padding: 40px 20px 30px;
+}
+body main .wrapper.align_center {
+  display: flex;
+  justify-content: center;
+}
+body main .wrapper.align_right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+body main .wrapper.align_left {
+  display: flex;
+  flex-direction: row;
+}
+body main .wrapper.align_justify {
+  display: flex;
+  justify-content: space-between;
+}
+body main .wrapper.align_per_column {
+  display: flex;
+  flex-flow: column;
+}
+body main .wrapper.align_items {
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .wrapper.align_items .box:first-child {
+  height: 400px;
+}
+body main .wrapper.align_items .box:last-child {
+  height: 320px;
+}
+body main .wrapper.align_bottom {
+  min-height: 380px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+body main .wrapper.align_bottom .box:first-child,
+body main .wrapper.align_bottom .box:last-child {
+  height: 320px;
+}
+body main .wrapper.align_hor_ver_start {
+  min-height: 480px;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+}
+body main .wrapper.align_hor_ver_start .box:first-child {
+  height: 400px;
+}
+body main .wrapper.align_hor_ver_start .box:last-child {
+  height: 320px;
+}
+body main .wrapper.align_fulfill {
+  min-height: 480px;
+  align-items: stretch;
+  display: flex;
+  justify-content: center;
+}
+body main .wrapper.align_fulfill .box {
+  height: auto;
+}
+body main .wrapper .box {
+  width: 33.3%;
+  height: 250px;
+  max-width: 250px;
+  background: #1b112b;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 10px 10px;
+  position: relative;
+}
+body main .wrapper .box p {
+  color: #655977;
+  font-family: "Roboto Mono", serif;
+  padding: 0 22px;
+}
+body main .wrapper .box:after {
+  width: 78%;
+  background: #bfbaff;
+  border-radius: 4px;
+  color: #575482;
+  content: 'THE BOX ' attr(data-html);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 14px;
+  margin: 0 auto;
+  opacity: 0;
+  padding: 4px 6px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+body main .wrapper .box:hover {
+  background: #40139a;
+  -webkit-box-shadow: 0 6px 23px -8px rgb(0 0 0%);
+  -moz-box-shadow: 0 6px 23px -8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 6px 23px -8px #000000;
+}
+body main .wrapper .box:hover:after {
+  opacity: 1;
+  top: 22%;
+}
+body main .cli {
+  width: 60%;
+  max-width: 380px;
+  background: #1703eb;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 10px;
+  padding: 22px 30px 26px;
+}
+body main .cli .code p {
+  color: #ada8ef;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 0.8em;
+  line-height: 1.6;
+  margin: 0 0 10px;
+}
+body main .cli .code pre,
+body main .cli .code code {
+  color: #fff;
+  font-size: 1.2em;
+  margin: 0;
+}
+body footer {
+  max-width: none;
+  background: #080311;
+  padding: 60px 0;
+}
+body footer .container {
+  max-width: 440px;
+  background: #161d21;
+  border: 1px solid #312f35;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 0 26px;
+}
+body footer .container .columns {
+  flex: 1;
+}
+body footer .container .columns:nth-child(1) {
+  flex: 1.5;
+}
+body footer .container .columns:nth-child(2) {
+  flex: 2;
+}
+body footer .container .columns img {
+  width: 100%;
+  max-width: 110px;
+  border-radius: 200px;
+  display: block;
+  margin: 20px auto 0;
+}
+body footer .container .columns h1 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1.5rem;
+  margin: 20px 0 0;
+}
+body footer .container .columns h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+body footer .container .columns button {
+  color: #435661;
+  cursor: pointer;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin: 12px 0 0;
+  text-transform: uppercase;
+}
+body footer .container .columns p {
+  font-family: "Roboto Mono", serif;
+  font-size: 0.8rem;
+  margin: 10px 0 0;
+}
+body a,
+body .box,
+body ::after {
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+@media screen and (max-width: 1024px) {
+  body main .info {
+    width: 86%;
+  }
+  body main .wrapper {
+    width: 90%;
+    max-width: none;
+    padding: 16px 20px 26px;
+  }
+  body main .wrapper.align_center {
+    display: block;
+  }
+  body main .wrapper.align_right {
+    display: block;
+  }
+  body main .wrapper.align_left {
+    display: block;
+  }
+  body main .wrapper.align_justify {
+    display: block;
+  }
+  body main .wrapper.align_per_column {
+    display: block;
+  }
+  body main .wrapper.align_top {
+    display: block;
+  }
+  body main .wrapper.align_items {
+    display: block;
+  }
+  body main .wrapper.align_bottom {
+    display: block;
+  }
+  body main .wrapper.align_hor_ver_start {
+    display: block;
+  }
+  body main .wrapper.align_fulfill {
+    min-height: auto;
+    display: block;
+  }
+  body main .wrapper.align_fulfill .box {
+    height: 250px;
+  }
+  body main .wrapper .box {
+    width: 46%;
+    max-width: none;
+    margin: 20px 1.8% 1.2%;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 639px) {
+  body main .info {
+    width: 85%;
+  }
+  body main .wrapper {
+    width: 80%;
+    max-width: none;
+    padding: 30px;
+  }
+  body main .wrapper .box {
+    width: 100%;
+    max-width: 480px;
+    margin: 30px auto 0;
+    display: block;
+  }
+  body main .wrapper .box:first-child {
+    margin: 0 auto;
+  }
+  body main .wrapper .box p {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 480px) {
+  body main .info {
+    width: 85%;
+  }
+  body main .wrapper {
+    width: 70%;
+    border-radius: 10px 10px 0 0;
+  }
+  body main .wrapper .box {
+    width: 96%;
+  }
+  body main .cli {
+    width: 70%;
+    max-width: none;
+    border: 1px solid #1703eb;
+  }
+  body footer .container {
+    width: 80%;
+    max-width: none;
+  }
+  body footer .container .columns img {
+    max-width: 90px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

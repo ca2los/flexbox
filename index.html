@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ca2los</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <script type="text/javascript" src="./js/scripts.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+            <section>
+                <ul>
+                    <li>
+                        <a href="https://github.com/ca2los">
+                            <img src="./img/github_icon_black.png" alt="GitHub Logo"/>
+                        </a>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="https://github.com/ca2los">/ca2los</a>
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li>
+                        <button type="reset" onclick="location.href='https://github.com/ca2los'">GitHub Repository</button>
+                    </li>
+                </ul>
+            </section>
+        </header>
+
+        <main>
+
+            <!-- Justify content: Center -->
+            <section class="info">
+                <h1>Flexbox</h1>
+                <h4>Visual examples with all the CSS properties related to Flexbox</h4>
+                <p>01. <a href="#" target="_blank">display: flex;</a> + <a href="#" target="_blank">justify-content: center;</a></p>
+                <p class="description">Parent properties to align horizontal elements to the right, left, center or distribute them inside the container. </p>
+            </section>
+            <section class="wrapper align_center">
+                <section class="box" data-html="is centered to the RIGHT of the container.">
+                    <p>&:nth-child(1)</p>
+                </section>
+                <section class="box" data-html="is centered to the RIGHT of the container.">
+                    <p>&:nth-child(2)</p>
+                </section>
+                <section class="box" data-html="is centered to the LEFT of the container.">
+                    <p>&:nth-child(3)</p>
+                </section>
+                <section class="box" data-html="is centered to the LEFT of the container.">
+                    <p>&:nth-child(4)</p>
+                </section>
+            </section>
+            <section class="cli">
+                <section class="code">
+                    <p>The blue border is the representation of the Flex Container, holding the parent properties:</p>
+                    <code>
+                        display: flex;
+                        justify-content: center;
+                    </code>
+                </section>
+                <section class="code"></section>
+            </section>
+
+            <!-- Align horizontal content: Right -->
+            <section class="info">
+                <p>02. <a href="#" target="_blank">display: flex;</a> + <a href="#" target="_blank">flex-direction: row-reverse;</a></p>
+                <p class="description">Parent properties for aligning elements to the right, left, top or bottom of the container </p>
+            </section>
+            <section class="wrapper align_right">
+                <section class="box" data-html="is aligned to the RIGHT of the container.">
+                    <p>&:nth-child(1)</p>
+                </section>
+                <section class="box" data-html="is aligned to the RIGHT of the container.">
+                    <p>&:nth-child(2)</p>
+                </section>
+                <section class="box" data-html="is aligned to the RIGHT of the container.">
+                    <p>&:nth-child(3)</p>
+                </section>
+                <section class="box" data-html="is aligned to the RIGHT of the container.">
+                    <p>&:nth-child(4)</p>
+                </section>
+            </section>
+            <section class="cli">
+                <section class="code">
+                    <p>The blue border is the representation of the Flex Container, holding the parent properties:</p>
+                    <code>
+                        display: flex;
+                        flex-direction: row-reverse;
+                    </code>
+                </section>
+                <section class="code"></section>
+            </section>
+
+            <!-- Align horizontal content: Left -->
+            <section class="info">
+                <p>03. <a href="#" target="_blank">display: flex;</a> + <a href="#" target="_blank">flex-direction: row;</a></p>
+                <p class="description">Parent properties for aligning elements to the right, left, top or bottom of the container </p>
+            </section>
+            <section class="wrapper align_left">
+                <section class="box" data-html="is aligned to the LEFT of the container.">
+                    <p>&:nth-child(1)</p>
+                </section>
+                <section class="box" data-html="is aligned to the LEFT of the container.">
+                    <p>&:nth-child(2)</p>
+                </section>
+                <section class="box" data-html="is aligned to the LEFT of the container.">
+                    <p>&:nth-child(3)</p>
+                </section>
+                <section class="box" data-html="is aligned to the LEFT of the container.">
+                    <p>&:nth-child(4)</p>
+                </section>
+            </section>
+            <section class="cli">
+                <section class="code">
+                    <p>The blue border is the representation of the Flex Container, holding the parent properties:</p>
+                    <code>
+                        display: flex;
+                        flex-direction: row;
+                    </code>
+                </section>
+                <section class="code"></section>
+            </section>
+
+            <!-- Justify horizontal content: Wrapper -->
+            <section class="info">
+                <p>04. <a href="#" target="_blank">display: flex;</a> + <a href="#" target="_blank">justify-content: space-between;</a></p>
+                <p class="description">Parent properties to align horizontal elements to the right, left, center or distribute them inside the container.</p>
+            </section>
+            <section class="wrapper align_justify">
+                <section class="box" data-html="is distributed to the START line of the container.">
+                    <p>&:nth-child(1)</p>
+                </section>
+                <section class="box" data-html="is distributed evenly in the container.">
+                    <p>&:nth-child(2)</p>
+                </section>
+                <section class="box" data-html="is distributed evenly in the container.">
+                    <p>&:nth-child(3)</p>
+                </section>
+                <section class="box" data-html="is distributed to the END line of the container.">
+                    <p>&:nth-child(4)</p>
+                </section>
+            </section>
+            <section class="cli">
+                <section class="code">
+                    <p>The blue border is the representation of the Flex Container, holding the parent properties:</p>
+                    <code>
+                        display: flex;
+                        justify-content: space-between;
+                    </code>
+                </section>
+                <section class="code"></section>
+            </section>
+
+            <!-- Align horizontal content: Right -->
+            <section class="info">
+                <p>05. <a href="#" target="_blank">display: flex;</a> + <a href="#" target="_blank">flex-flow: column;</a></p>
+                <p class="description">Parent properties for aligning elements horizontally (to right or to the left) and vertically (to the top or to the bottom) </p>
+            </section>
+            <section class="wrapper align_per_column">
+                <section class="box" data-html="is aligned vertically from top to the bottom.">
+                    <p>&:nth-child(1)</p>
+                </section>
+                <section class="box" data-html="is aligned vertically from top to the bottom.">
+                    <p>&:nth-child(2)</p>
+                </section>
+                <section class="box" data-html="is aligned vertically from top to the bottom.">
+                    <p>&:nth-child(3)</p>
+                </section>
+                <section class="box" data-html="is aligned vertically from top to the bottom.">
+                    <p>&:nth-child(4)</p>
+                </section>
+            </section>
+            <section class="cli">
+                <section class="code">
+                    <p>The blue border is the representation of the Flex Container, holding the parent properties:</p>
+                    <code>
+                        display: flex;
+                        flex-flow: column;
+                    </code>
+                </section>
+                <section class="code"></section>
+            </section>
+
+            <!-- Align content: Top -->
+            <section class="info">
+                <p>06. <a href="#" target="_blank">display: flex;</a> + <a href="#" target="_blank">align-items: center;</a> + <a href="#" target="_blank">justify-content: center;</a></p>
+                <p class="description">Parent properties for aligning elements to center of the taller item and to the content wrapper </p>
+            </section>
+            <section class="wrapper align_items">
+                <section class="box" data-html="is taller than the element at his right and forces it to ne aligned to its center.">
+                    <p>&:nth-child(1)</p>
+                </section>
+                <section class="box" data-html="is smaller than the element at his left and its aligned to the center of the taller element.">
+                    <p>&:nth-child(2)</p>
+                </section>
+                <section class="box" data-html="is smaller than the element at his right and its aligned to the center of the taller element.">
+                    <p>&:nth-child(3)</p>
+                </section>
+                <section class="box" data-html="is taller than the element at his left and forces it to ne aligned to its center.">
+                    <p>&:nth-child(4)</p>
+                </section>
+            </section>
+            <section class="cli">
+                <section class="code">
+                    <p>The blue border is the representation of the Flex Container, holding the parent properties:</p>
+                    <code>
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    </code>
+                </section>
+                <section class="code"></section>
+            </section>
+
+            <!-- Align content: Bottom -->
+            <section class="info">
+                <p>07. <a href="#" target="_blank">display: flex;</a> + <a href="#" target="_blank">align-items: flex-end;</a> + <a href="#" target="_blank">justify-content: space-around;</a></p>
+                <p class="description">Parent properties for aligning elements to the bottom of the container and distribute them around the available space </p>
+            </section>
+            <section class="wrapper align_bottom">
+                <section class="box" data-html="is aligned to the bottom, the size won't matters.">
+                    <p>&:nth-child(1)</p>
+                </section>
+                <section class="box" data-html="is aligned to the bottom, the size won't matters.">
+                    <p>&:nth-child(2)</p>
+                </section>
+                <section class="box" data-html="is aligned to the bottom, the size won't matters.">
+                    <p>&:nth-child(3)</p>
+                </section>
+                <section class="box" data-html="is aligned to the bottom, the size won't matters.">
+                    <p>&:nth-child(4)</p>
+                </section>
+            </section>
+            <section class="cli">
+                <section class="code">
+                    <p>The blue border is the representation of the Flex Container, holding the parent properties:</p>
+                    <code>
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: space-around;
+                    </code>
+                </section>
+                <section class="code"></section>
+            </section>
+
+            <!-- Align vertically and horizontally content: Center -->
+            <section class="info">
+                <p>08. <a href="#" target="_blank">display: flex;</a> + <a href="#" target="_blank">align-items: flex-startr;</a> + <a href="#" target="_blank">justify-content: center;</a></p>
+                <p class="description">Parent properties for aligning elements to the top of the container </p>
+            </section>
+            <section class="wrapper align_hor_ver_start">
+                <section class="box" data-html="is aligned to the top, the size won't matters.">
+                    <p>&:nth-child(1)</p>
+                </section>
+                <section class="box" data-html="is aligned to the bottom, the size won't matters.">
+                    <p>&:nth-child(2)</p>
+                </section>
+                <section class="box" data-html="is aligned to the bottom, the size won't matters.">
+                    <p>&:nth-child(3)</p>
+                </section>
+                <section class="box" data-html="is aligned to the bottom, the size won't matters.">
+                    <p>&:nth-child(4)</p>
+                </section>
+            </section>
+            <section class="cli">
+                <section class="code">
+                    <p>The blue border is the representation of the Flex Container, holding the parent properties:</p>
+                    <code>
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    </code>
+                </section>
+                <section class="code"></section>
+            </section>
+
+            <!-- Vertical content: Fulfill -->
+            <section class="info">
+                <p>09. <a href="#" target="_blank">display: flex;</a> + <a href="#" target="_blank">align-items: stretch;</a> + <a href="#" target="_blank">justify-content: center;</a></p>
+                <p class="description">Parent properties to vertically fulfill the container </p>
+            </section>
+            <section class="wrapper align_fulfill">
+                <section class="box" data-html="fulfills vertically the available space from top to bottom.">
+                    <p>&:nth-child(1)</p>
+                </section>
+                <section class="box" data-html="fulfills vertically the available space from top to bottom.">
+                    <p>&:nth-child(2)</p>
+                </section>
+                <section class="box" data-html="fulfills vertically the available space from top to bottom.">
+                    <p>&:nth-child(3)</p>
+                </section>
+                <section class="box" data-html="fulfills vertically the available space from top to bottom.">
+                    <p>&:nth-child(4)</p>
+                </section>
+            </section>
+            <section class="cli">
+                <section class="code">
+                    <p>The blue border is the representation of the Flex Container, holding the parent properties:</p>
+                    <code>
+                        display: flex;
+                        align-items: stretch;
+                        justify-content: center;
+                    </code>
+                </section>
+                <section class="code"></section>
+            </section>
+
+        </main>
+
+        <footer>
+            <section class="container">
+                <section class="columns">
+                    <img src="./img/avatar.jpg" alt="Profile photo">
+                </section>
+                <section class="columns">
+                    <h1><a href="https://github.com/ca2los" target="_blank">ca2los</a></h1>
+                    <button type="reset" onclick="location.href='https://github.com/ca2los'">GitHub Repository</button>
+                    <p><strong>Description:</strong> Figuring out...</p>
+                </section>
+            </section>
+        </footer>
+    </body>
+</html>
