@@ -3,7 +3,9 @@
 This cheatsheet has been created to help you understand how **Flexbox CSS** properties work in Web and Mobile devices.
 There are many ways to unleash the real potential of these tools, and the examples will show you what can you expect when the properties work together.
 Give it a try and share it if you find it useful. Thank you!
-______
+
+###### Give it a try [HERE!](https://ca2los.github.io/flexbox/)
+
 ## VERSION 1.0
 #### JULY 3rd, 2021
 This version has 9 examples of how Flexbox main properties work together. The project has been enabled to show responsive behavior, and it's supported by all browsers.
