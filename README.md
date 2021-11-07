@@ -1,5 +1,5 @@
 # FLEXBOX
-#### BY CARLOS AGUIRRE OSEGUERA
+###### BY CARLOS AGUIRRE OSEGUERA
 This cheatsheet has been created to help you understand how **Flexbox CSS** properties work in Web and Mobile devices.
 There are many ways to unleash the real potential of these tools, and the examples will show you what can you expect when the properties work together.
 Give it a try and share it if you find it useful. Thank you!
